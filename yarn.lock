@@ -1075,6 +1075,27 @@
   resolved "https://registry.yarnpkg.com/@fuma-translate/react/-/react-1.0.1.tgz#32f2cd804c74cb2454bb16b35bf9215d8cd2838d"
   integrity sha512-jYNEoTHzOqYsVqnPawGq/zbGhc+xMV69YPENDccZ5gFla2uafEEl82Jxic/PxAGmkZzv8U65etDkvaJXzc0DjQ==
 
+"@fuma-translate/react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@fuma-translate/react/-/react-1.0.2.tgz#4cc88e6a873ab78a8e974a73c722048f82dc8d0f"
+  integrity sha512-uOiOtBx3nRXR8Nu1GzBf1tApgF1FErDBTHxRIAQeyQdyOoZbrNRN6H4kDCWObY4qyGeGbHydG0DHzgeUgFDMIw==
+
+"@fumadocs/api-docs@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@fumadocs/api-docs/-/api-docs-0.0.2.tgz#4e3d7b15d764e0fadb7bdb7149577e207af9e5b1"
+  integrity sha512-SXxQ0anMYtBagvhl3CTNteKr3U5kdhwSSxcq+EvpYkNhWE4wtzFSS2PzhyKN/1fSYOWLyY3nhTyrEg05kIGdcA==
+  dependencies:
+    "@fuma-translate/react" "^1.0.1"
+    "@fumari/stf" "1.0.5"
+    "@radix-ui/react-accordion" "^1.2.13"
+    "@radix-ui/react-dialog" "^1.1.16"
+    "@radix-ui/react-select" "^2.3.0"
+    class-variance-authority "^0.7.1"
+    github-slugger "^2.0.0"
+    js-yaml "^4.2.0"
+    lucide-react "^1.17.0"
+    tailwind-merge "^3.6.0"
+
 "@fumadocs/tailwind@0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@fumadocs/tailwind/-/tailwind-0.0.5.tgz#ccdfa6a5cd92672aaa51ffacbe46633d4c9775ad"
@@ -2568,7 +2589,7 @@
     "@radix-ui/react-use-callback-ref" "1.1.2"
     "@radix-ui/react-use-layout-effect" "1.1.2"
 
-"@radix-ui/react-select@2.3.0", "@radix-ui/react-select@^2.2.6":
+"@radix-ui/react-select@2.3.0", "@radix-ui/react-select@^2.2.6", "@radix-ui/react-select@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-select/-/react-select-2.3.0.tgz#6bdb11e04a6c68af4bb0760d957c0bad66070e86"
   integrity sha512-mENc7WpJvJcW8hlMpzfFcHcEhTvYS5JMBmi9HVC1Q00uhBwML086MHYUV8QQdQv6lcu0Wg8dzd1RB8AFADcG/g==
@@ -7358,12 +7379,12 @@ fsevents@~2.3.2, fsevents@~2.3.3:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
-fumadocs-core@^16.6.16:
-  version "16.10.1"
-  resolved "https://registry.yarnpkg.com/fumadocs-core/-/fumadocs-core-16.10.1.tgz#17943a1bd432816fe0afb1664a970e7cd7ec0d89"
-  integrity sha512-iGnB03/VyMSTWIaZ8zaDG/b/4q1e4gSzWDSvP3AR5Yxg9UJMsA0acaN/IFcURBSgRgJq6PELyYA6WfHBvHAgSg==
+fumadocs-core@^16.10.2:
+  version "16.10.2"
+  resolved "https://registry.yarnpkg.com/fumadocs-core/-/fumadocs-core-16.10.2.tgz#4448b652571ce7be4f32effc761a94c7ebccbd48"
+  integrity sha512-7YMEkUYQYYey+8yzZW47jV3pbctCXsevFY6u4yN9PRwJi/q76QOFfefvzSkbYha3OIudr2C0RGzJxEhzV2a1/g==
   dependencies:
-    "@fuma-translate/react" "^1.0.1"
+    "@fuma-translate/react" "^1.0.2"
     "@orama/orama" "^3.1.18"
     estree-util-value-to-estree "^3.5.0"
     github-slugger "^2.0.0"
@@ -7382,56 +7403,54 @@ fumadocs-core@^16.6.16:
     unist-util-visit "^5.1.0"
     vfile "^6.0.3"
 
-fumadocs-mdx@^14.2.9:
-  version "14.3.2"
-  resolved "https://registry.yarnpkg.com/fumadocs-mdx/-/fumadocs-mdx-14.3.2.tgz#1325164b59dcd5b62a64d169ab1e6152f49facc7"
-  integrity sha512-73SoZkbUuqnD91G/0zBcaQdM1TMnYw5JJzKgkGvQTiZbtLQFuWTt8/uRqnzFMuNIUu/WY9Lo9d1iZ8G+jOVieA==
+fumadocs-mdx@^15.0.12:
+  version "15.0.12"
+  resolved "https://registry.yarnpkg.com/fumadocs-mdx/-/fumadocs-mdx-15.0.12.tgz#f43d86e479ab9bd57efa8ca858968fa4f93bef19"
+  integrity sha512-R4WenrNQxSKi+QU46Q1cscVWi+S90dj3As4jdN+vgChO2o0TVOj+FFIe3onWM7mglhPj53NxZp/upP+t/ryekQ==
   dependencies:
     "@mdx-js/mdx" "^3.1.1"
     "@standard-schema/spec" "^1.1.0"
     chokidar "^5.0.0"
     esbuild "^0.28.0"
     estree-util-value-to-estree "^3.5.0"
-    js-yaml "^4.1.1"
+    js-yaml "^4.2.0"
     mdast-util-mdx "^3.0.0"
-    mdast-util-to-markdown "^2.1.2"
     picocolors "^1.1.1"
     picomatch "^4.0.4"
-    tinyexec "^1.1.1"
-    tinyglobby "^0.2.16"
+    tinyexec "^1.2.4"
+    tinyglobby "^0.2.17"
     unified "^11.0.5"
     unist-util-remove-position "^5.0.0"
     unist-util-visit "^5.1.0"
     vfile "^6.0.3"
-    zod "^4.3.6"
+    zod "^4.4.3"
 
-fumadocs-openapi@^10.3.18:
-  version "10.10.3"
-  resolved "https://registry.yarnpkg.com/fumadocs-openapi/-/fumadocs-openapi-10.10.3.tgz#1da33c614d183d3cc17030a732b097430755c959"
-  integrity sha512-3apXz0fZz301rnEWaMgMLQwoyuAmV8DczcOVRkGfBl9fnOjO2f2UcVGtiC5k7CTIorCbzOXUfjUPo5ZpDbleDg==
+fumadocs-openapi@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/fumadocs-openapi/-/fumadocs-openapi-11.0.2.tgz#d2709789aa06236bdeb72ac1a6c0156c3da89371"
+  integrity sha512-kskKfbDt/XUPNHRJB/GgMTbL473G+KJkdT1y4aGfr6TfNDKjSxAvGzpebyY9cI2bNhw3iEGJGZRwvxmZ6heFOg==
   dependencies:
+    "@fuma-translate/react" "^1.0.1"
+    "@fumadocs/api-docs" "0.0.2"
     "@fumari/json-schema-ts" "^0.0.2"
     "@fumari/stf" "1.0.5"
-    "@radix-ui/react-accordion" "^1.2.12"
-    "@radix-ui/react-dialog" "^1.1.15"
-    "@radix-ui/react-select" "^2.2.6"
     chokidar "^5.0.0"
     class-variance-authority "^0.7.1"
     github-slugger "^2.0.0"
     hast-util-to-jsx-runtime "^2.3.6"
-    js-yaml "^4.1.1"
+    js-yaml "^4.2.0"
     lucide-react "^1.17.0"
     remark "^15.0.1"
     remark-rehype "^11.1.2"
-    shiki "^4.1.0"
+    shiki "^4.2.0"
     tailwind-merge "^3.6.0"
 
-fumadocs-ui@^16.6.16:
-  version "16.10.1"
-  resolved "https://registry.yarnpkg.com/fumadocs-ui/-/fumadocs-ui-16.10.1.tgz#b64a92b2f356dd1ad6543ff933042227ee98a464"
-  integrity sha512-ytEwbMFFadfuul9x4Pz4pg9FMRI1MkqW5P7bHrWsLF+d1C4whzNtcUKPn0QP6KCQqIKoVhIa3C7qlI9v06Ik1A==
+fumadocs-ui@^16.10.2:
+  version "16.10.2"
+  resolved "https://registry.yarnpkg.com/fumadocs-ui/-/fumadocs-ui-16.10.2.tgz#7d36d95e5faa0919acc0ee4df61634e5a0165415"
+  integrity sha512-l8fYpahaLVA73XUktsjTdq6iwG6V0/UGAnN1uuCeVuV4ea/8RDduOo9CcMM62SCup0EnT1zEAk+FGFCdKQ4BhQ==
   dependencies:
-    "@fuma-translate/react" "^1.0.1"
+    "@fuma-translate/react" "^1.0.2"
     "@fumadocs/tailwind" "0.0.5"
     "@radix-ui/react-accordion" "^1.2.13"
     "@radix-ui/react-collapsible" "^1.1.13"
@@ -8441,7 +8460,7 @@ js-tokens@^10.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^4.1.0, js-yaml@^4.1.1, js-yaml@^4.2.0:
+js-yaml@^4.1.0, js-yaml@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.2.0.tgz#2bd9e85682dd91bd469afb809d816043b3d49524"
   integrity sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==
@@ -9715,6 +9734,26 @@ next-themes@^0.4.6:
   resolved "https://registry.yarnpkg.com/next-themes/-/next-themes-0.4.6.tgz#8d7e92d03b8fea6582892a50a928c9b23502e8b6"
   integrity sha512-pZvgD5L0IEvX5/9GWyHMf3m8BKiVQwsCMHfoFosXtXBMnaS0ZnIJ9ST4b4NqLVKDEm8QBxoNNGNaBv2JNF6XNA==
 
+next@15.5.2:
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/next/-/next-15.5.2.tgz#5e50102443fb0328a9dfcac2d82465c7bac93693"
+  integrity sha512-H8Otr7abj1glFhbGnvUt3gz++0AF1+QoCXEBmd/6aKbfdFwrn0LpA836Ed5+00va/7HQSDD+mOoVhn3tNy3e/Q==
+  dependencies:
+    "@next/env" "15.5.2"
+    "@swc/helpers" "0.5.15"
+    caniuse-lite "^1.0.30001579"
+    postcss "8.4.31"
+    styled-jsx "5.1.6"
+  optionalDependencies:
+    "@next/swc-darwin-arm64" "15.5.2"
+    "@next/swc-darwin-x64" "15.5.2"
+    "@next/swc-linux-arm64-gnu" "15.5.2"
+    "@next/swc-linux-arm64-musl" "15.5.2"
+    "@next/swc-linux-x64-gnu" "15.5.2"
+    "@next/swc-linux-x64-musl" "15.5.2"
+    "@next/swc-win32-arm64-msvc" "15.5.2"
+    "@next/swc-win32-x64-msvc" "15.5.2"
+    sharp "^0.34.3"
 
 next@^15.5.9:
   version "15.5.19"
@@ -11506,7 +11545,7 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shiki@^4.0.2, shiki@^4.1.0, shiki@^4.2.0:
+shiki@^4.0.2, shiki@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/shiki/-/shiki-4.2.0.tgz#7ae3c17322f71255e67df08e754ad22a57adaa62"
   integrity sha512-hjNax6o/ylDy9lefQEaSDtzaT3iVNtZ3WmpQnbuQNoG4xvnSKf2kSKbihZVO4JRG1TTMejs7CmNRYlWgAL66pQ==
@@ -12053,12 +12092,12 @@ tinyexec@^0.3.2:
   resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-0.3.2.tgz#941794e657a85e496577995c6eef66f53f42b3d2"
   integrity sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==
 
-tinyexec@^1.0.0, tinyexec@^1.0.1, tinyexec@^1.0.2, tinyexec@^1.1.1:
+tinyexec@^1.0.0, tinyexec@^1.0.1, tinyexec@^1.0.2, tinyexec@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-1.2.4.tgz#ae45bb2edebda94c70f4ea897e0f1243e470db71"
   integrity sha512-SHf/r48b7vOrjve9PxJo3MN5v5yuyjHvdUcrQffT3WXMUfnGmHDVbC4k3sHJaJTgZCwpUplIaAo5ANtMyp3YHg==
 
-tinyglobby@^0.2.11, tinyglobby@^0.2.13, tinyglobby@^0.2.15, tinyglobby@^0.2.16, tinyglobby@^0.2.17:
+tinyglobby@^0.2.11, tinyglobby@^0.2.13, tinyglobby@^0.2.15, tinyglobby@^0.2.17:
   version "0.2.17"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.17.tgz#562a9a6c9eb2b3b123d39719f9af5bb44fcd7631"
   integrity sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==
@@ -12782,7 +12821,7 @@ zod@3.24.3:
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.3.tgz#1f40f750a05e477396da64438e0e1c0995dafd87"
   integrity sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==
 
-"zod@^3.25 || ^4.0", zod@^4.1.0, zod@^4.1.12, zod@^4.3.6:
+"zod@^3.25 || ^4.0", zod@^4.1.0, zod@^4.1.12, zod@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.4.3.tgz#b680f172885d18bbebf21a834ea25e55a1bbf356"
   integrity sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==
